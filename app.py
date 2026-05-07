@@ -11,6 +11,8 @@ with open('vectorizer_pkl.pkl', 'rb') as f:
 # FastAPI app
 app = FastAPI()
 # stopwords
+import nltk
+nltk.download('stopwords')
 stop_words = stopwords.words('english')
 # preprocessing function
 def formatted_text(text):
