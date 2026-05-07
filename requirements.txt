@@ -1,7 +1,7 @@
 fastapi
 uvicorn
+scikit-learn
 pandas
 numpy
+nltk
 python-multipart
-scikit-learn
-pickle
