@@ -4,4 +4,4 @@ pandas
 scikit-learn
 python-multipart
 nltk
-numpy
+
